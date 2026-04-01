@@ -9,12 +9,13 @@ This project is implementing an application that has a strong password checker b
 - Finds dictionary-based weak passwords 
 - Uses two methods to implement hash tables: 
 - Separate chaining 
-- Linear probing 
+- Linear probing
+- Determines the cost of searching in the hash table (number of comparisons)
 - Compare two hash functions: 
  - The early version of java's hashCode() method which has a multiplier of 37 and uses a "skipping" technique 
  - The modern version of java's hashCode() method which has a multiplier of 31 
-- Determines the cost of searching in the hash table (number of comparisons)
 
+<br>
 
 
 <img width="1058" alt="Screenshot 2024-12-06 at 6 54 13 PM" src="https://github.com/user-attachments/assets/82234ec9-c2d9-4f0b-a89a-c2a15c4f0b2b">
